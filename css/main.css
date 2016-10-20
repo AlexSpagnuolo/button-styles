@@ -17,9 +17,14 @@ a {
   padding: .4em .75em .3em;
   text-decoration: none;
   border-radius: 8px;
+  display: inline-block;
 }
 
 .btn {
+  display: inline-block;
+}
+
+.btn-regular {
   font-size: 1.125rem;
 }
 
@@ -40,19 +45,33 @@ a {
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
+}
+
+.s {
   border: 3px solid #ccc;
 }
 
 .btn-ghost {
   background-color: #fff;
   color: #333;
+}
+
+.g {
   border: 3px solid #333;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
+}
+
+.w {
   border: 3px solid #f33;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: 3px solid #000;
 }
 
 .btn-primary:hover {
@@ -63,4 +82,15 @@ a {
 .btn-subtle:hover {
   background-color: #666;
   border: 3px solid #666;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+  background-color: #666;
+  border: 3px solid #666;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+  border: 3px solid #933;
 }
